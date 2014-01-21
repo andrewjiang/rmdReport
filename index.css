@@ -1,0 +1,667 @@
+/* CSS declarations go here */
+
+/* Colors CSS */
+	.theme1{
+		color: #1B325F;
+	}
+	.theme2{
+		color: #9CC4E4;
+	}
+	.theme3{
+		color: #E9F2F9;
+	}
+	.theme4{
+		color: #3A89C9;
+	}
+	.theme5{
+		color: #F26C4F;
+	}
+	.flatgreen{
+		color: #27ae60;
+	}
+	.flatred{
+		color: #e74c3c;
+	}
+	.flatorange{
+		color: #f39c12;
+	}
+	.flatblue{
+		color: #2980b9;
+	}
+	.darkgray{
+		color: #555;
+	}
+	.lightgray{
+		color: #999;
+	}
+	.white-bkg{
+		background-color: #fff;
+	}
+/* End Colors CSS */
+
+/* Base CSS */
+	body{
+		background-color: #eee;
+	}
+	.navbar.navbar-default{
+		background-color: #eee;
+	}
+	nav.navbar.navbar-default{
+		border: 1px solid #ddd;
+		border-radius: 0px;
+	}
+	a.dropdown-toggle{
+		color:#eee;
+	}
+	a.dropdown-toggle:hover{
+		color: #fff;
+	}
+	.logo{
+		height: 60px;
+		width: 60px;
+	}
+	.navbar-default .navbar-header{
+		font-size: 26px;
+		color: #2980b9;
+		font-weight: 900;
+		font-family: 'Bowlby One SC', 'Arial';
+	}
+	.navbar-right{
+		margin-top: 20px;
+	}
+	.mainpage{
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	#mainrow{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	html, body {
+	  height: 100%;
+	}
+	#wrap {
+	  min-height: 100%;
+	}
+	#main {
+	  overflow:auto;
+	  padding-bottom:150px; /* this needs to be bigger than footer height*/
+	}
+	.footer {
+	  	background-color: #272727;
+		min-height: 200px;
+		position: relative;
+		width:100%;
+		color: #fff;
+		padding: 20px 0px;
+		margin-top:0px;
+
+	} 
+	#footer{
+		color: #eee;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+	#footerLeft{
+		text-align: left;
+		padding-left: 20px;
+	}
+	#footerRight{
+		text-align: right;
+		padding-right: 20px;
+	}
+	#toolbar{
+		border-radius: 0px;
+		border: 1px solid #111;
+		background-color: #333;
+		color: #aaa;
+	}
+	.tool-icon-row{
+		text-align: center;
+	}
+	.tool-icon{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.tool-icon .glyphicon{
+		font-size: 24px;
+	}
+	.tool-icon:hover{
+		background-color: #292929;
+		color: #eee;
+	}
+	.tool-icon-selected{
+		background-color: #222;
+		color: #eee;
+	}
+	.tool-link{
+		color: #aaa;
+	}
+/* End Base CSS */
+
+/* Home CSS */
+	#homeHeroRow{
+		margin-right: -50px;
+		margin-left: -50px
+	}
+	#homeHero{
+		border-top: 1px solid #1B325F;
+		min-height: 300px;
+		padding-top: 20px;
+		padding-bottom: 40px;
+		background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 388, color-stop(0%, #2980b9), color-stop(100%, #1B325F));
+		background-image: -webkit-radial-gradient(center center, farthest-corner circle, #2980b9 0%, #1B325F 100%);
+		background-image: -moz-radial-gradient(center center, farthest-corner circle, #2980b9 0%, #1B325F 100%);
+		background-image: -ms-radial-gradient(center center, farthest-corner circle, #2980b9 0%, #1B325F 100%);
+		background-image: -o-radial-gradient(center center, farthest-corner circle, #2980b9 0%, #1B325F 100%);
+		background-image: radial-gradient(farthest-corner circle at center center, #2980b9 0%, #1B325F 100%);
+	}
+	.heroTitle{
+		text-shadow: rgba(0,0,0,0.65) 1px 1px 1px;
+		font-size: 42px;
+		color: #eee;
+		text-align: center;
+		padding-top: 30px;
+	}
+	.heroSubtitle{
+		color: #9CC4E4;
+		text-align: center;
+		font-family: 'Alegreya Sans';
+	}
+	#homeCTA{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 200px;
+		text-transform: uppercase;
+		box-shadow: 4px 4px 10px #1B325F;
+		background-color: #16a085;
+	}
+	#headerCTA{
+		margin-top: 15px;
+		padding: 4px 10px 4px 10px;
+		box-shadow: 2px 2px 3px #ccc;
+		font-size: 14px;
+		margin-right: 6px;
+		background-color: #16a085;
+	}
+	#homeCTA:hover, #headerCTA:hover{
+		border:1px solid #fff;
+		background-color: #42B29C;
+	}
+	#headerLogin{
+		margin-top: 15px;
+		padding: 4px 10px 4px 10px;
+		box-shadow: 2px 2px 3px #ccc;
+		font-size: 14px;
+		background-color: #fafafa;
+		border: 1px solid #777;
+	}
+	#headerLogin:hover{
+		border:1px solid #888;
+		background-color: #fff;
+		color: #777;
+	}
+	.CTA{
+		font-weight: 900;
+		border: 1px solid #eee;
+	}
+	#homeBody{
+		border-top: 1px solid #999;
+		background-color: #fff;
+		min-height: 400px;
+	}
+	#marketing{
+		width: 80%;
+		text-align: center;
+		padding: 40px 10px;
+		color: #2c3e50;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#marketing .col-md-4{
+		padding: 20px;
+		border: 1px #ddd solid;
+		height: 200px;
+		color: #1B325F;
+	}
+	#marketing .col-md-4 h2{
+		font-size: 24px;
+		margin-top: 10px;
+	}
+	#marketing .glyphicon{
+		font-size: 50px;
+	}
+	#marketing .col-md-12{
+		padding: 0px 20px 20px 10px;
+		font-size: 30px;
+		color: #3A89C9;
+		font-family: 'Lobster';
+	}
+	#marketing p{
+		font-weight: 100;
+		font-family: 'Arial';
+		font-size: 16px;
+	}
+/* End Home CSS */
+
+/* Main Body CSS */
+	#main-container{
+		padding: 0px;
+		min-height: 600px;
+	}
+	.headline{
+		padding-bottom: 5px;
+		margin-top: 10px;
+		background-color: #fff;
+		border-top: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.bodyline{
+		padding-top: 20px;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	.headline h1, .headline h2, .headline h3{
+		color: #777;
+		font-variant: small-caps;
+	}
+	.headline h5{
+		color:	#999;
+		font-style: normal;
+	}
+	.headline button, .headline .search{
+		margin-top: 18px;
+	}
+	.btn-default{
+		background-color: #eee;
+		color: #777;
+	}
+	.btn-default:hover{
+		color: #222;
+	}
+	.update{
+		color: #888;
+	}
+	a.datetime{
+		color: #555;
+	}
+	a.datetime:hover{
+		color: #444;
+	}
+	a{
+		color: #555;
+	}
+	.title a h4{
+		color: #1B325F;
+	}
+/* End Main Body CSS */
+
+/* New Account CSS */
+	.titleline{
+		padding-top: 20px;
+	}
+	.titleline h1{
+		color: #777;
+	}
+	.titleline h5{
+		color:	#999;
+		font-style: normal;
+	}
+	#newAcctPassChk{
+		height: 15px;
+		width: 15px;
+		padding-top: 2px;
+		margin: 0px;
+	}
+/* End New Account CSS */
+
+/* New Campaign CSS */
+	.content select{
+		background-color: #fff;
+	}
+	.multiAppt, .singleAppt{
+		min-height: 100px;
+	}
+	.multiAppt .field, .singleAppt .field{
+		margin-top: 6px;
+		font-size: 16px;
+		font-weight: bold;
+		color: #1B325F;
+		text-align: right;
+	}
+	.multiAppt .input{
+		background-color: #E9F2F9; 
+	}
+	.singleAppt .row{
+		margin-top: 3px;
+	}
+	.singleAppt .input{
+		font-size: 16px;
+	}
+	button.next{
+		min-width: 100px;
+	}
+/* End New Campaign CSS */
+
+/* MultiSelect CSS */
+	.field-header h4{
+		margin-bottom: 0px;
+	}
+	.field h4{
+		font-style: italic;
+	}
+	.field input{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		display: none;
+	}
+	.entry {
+		text-align: center;
+		color: #1B325F;
+	}
+	.entry .glyphicon{
+		cursor: pointer;
+	}
+	.entry .glyphicon:hover{
+		color: #3A89C9;
+	}
+/* End MultiSelect CSS */
+
+/* MultiScript CSS */
+	.script{
+		font-size: 16px;
+		line-height: 32px;
+		white-space: pre-wrap;
+		color: #222;
+		width: 100%;
+		border-radius: 6px;
+		display: block;
+		background: #fff;
+		border: 1px #ccc solid;
+		min-height: 250px;
+	}
+
+/* End MultiScript CSS */
+
+/* MultiBranches CSS */
+	.branch .script{
+		min-height: 80px;
+	}
+	.branch h2{
+		margin-top: 0px;
+	}
+	.numkey {
+		height: 60px;
+		width: 60px;
+		text-align: center;
+		padding-top: 10px;
+		font-size: 24px;
+
+	}
+/* End MultiBranches CSS */
+
+/* OnePageMulti CSS*/
+
+	.newSegment{
+		min-height: 430px;
+		padding: 0px 30px 70px 30px;
+		position: relative;
+	}
+	.newSegment .newNavigation{
+		position: absolute;
+		bottom:0;
+
+	}
+	.header{
+		padding-bottom: 20px;
+	}
+	.fieldLabel h4{
+	}
+	.fieldLabel span.label{
+		font-size: 100%
+	}
+	.fieldSelect .row{
+		margin-bottom: 10px;
+	}
+	.newSegment button{
+		margin-left: 0px;
+	}
+	.inputField .verify{
+		padding-left: 0px;
+	}
+	.inputField{
+		margin-bottom: 10px;
+	}
+	.inputField h3{
+		margin-top: 6px;
+	}
+	#assignCSV{
+		position: absolute;
+		left: 33.34%;
+	}
+	.confirmSegment{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.complete-new{
+		margin-top: 15px
+	}
+/* End OnePageMulti CSS*/
+
+/* Campaign CSS */
+	canvas{
+        width: 100% !important;
+        max-width: 800px;
+        height: auto !important;
+   	}
+   	.eventTotals{
+   		text-align: center;
+   		color: #555;
+   	}
+   	.eventLabels{
+   		text-align: center;
+   		color: #777;
+   	}
+   	.eventTotals h3{
+   		margin-top: 10px;
+   		margin-bottom: 5px;
+   	}
+   	.rBorder{
+   		border-right: 1px solid #ddd;
+   	}
+   	#recipientList button{
+   		width: 100%;
+   	}
+   	.dataTables_filter input{
+   		border-radius: 10px;
+   	}
+   	.dataTables_filter label{
+   		color: #777;
+   	}
+   	#recipientList{
+   		font-size: 14px;
+   	}
+   	#success{
+   		padding-top: 5px;
+   		padding-bottom: 5px;
+   		text-align: center;
+   	}
+   	#nextReminder{
+   		padding-top: 5px;
+   		padding-bottom: 5px;
+   		text-align: center;
+   	}
+   	#nextReminder a{
+   		text-decoration: underline;
+   		color: #2980b9;
+   	}
+   	#scheduleReminders{
+   		margin-top: 5px;
+   	}
+   	#campaignMetrics, #campaignList, #campaignReminders, #campaignScript, #campaignBranches{
+   		padding-left: 20px;
+   		padding-right: 20px;
+   	}
+/* End Campaign CSS */
+
+/* Event Main CSS */
+
+	.event .progress{
+		margin-bottom: 11px;
+	}
+/* End Event Main CSS */
+
+/* Event Detail CSS */
+	#campaignMetrics .progress{
+		margin-bottom: 0px;
+	}
+/* End Event Detail CSS */
+
+/* New Reminder CSS */
+	.reminder-listbox{
+	}
+/* End New Reminder CSS */
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon span {
+    position: absolute;
+    padding: 26px 12px 0px 12px;
+    pointer-events: none;
+}
+.col-sm-padding-left{
+	padding-left: 5px;
+}
+.col-sm-padding-right{
+	padding-right: 5px;
+}
+.center {
+	text-align: center;
+}
+.showMore{
+	color: #999;
+}
+.showMore:hover{
+	text-decoration: none;
+	color: #777;
+}
+.inputLabel{
+	font-size: 18px;
+	font-weight: 300;
+}
+.cleanSelect{
+	background-color: #fff; 
+}
+.clear-btn{
+	background-color:#fff; 
+	border:none;
+}
+.clear-btn:hover{
+	background-color:#fff; 
+	border:none;
+}
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+.divider-inside-sides {
+  position:relative;
+  overflow:hidden;
+}
+.divider-inside-sides:before {
+  content: "";
+  position:absolute;
+  z-index: 1;
+  width:10px; 
+  top: 5%;
+  height: 90%;
+  left: -10px;
+  border-radius: 5px / 100px;
+  box-shadow:0 0 13px rgba(0,0,0,0.8);
+}
+.divider-inside-sides:after {
+  content: "";
+  position:absolute;
+  z-index: 1;
+  width:10px; 
+  top: 5%;
+  height: 90%;
+  right: -10px;
+  border-radius: 5px / 100px;
+  box-shadow:0 0 13px rgba(0,0,0,0.8);
+}
+.divider-inside-top-bottom {
+  position:relative;
+  overflow:hidden; 
+}
+.divider-inside-top-bottom:before {
+  content: ""; 
+  position:absolute; 
+  z-index: 1; 
+  width:96%;  
+  top: -10px; 
+  height: 10px; 
+  left: 2%; 
+  border-radius: 100px / 5px; 
+  box-shadow:0 0 18px rgba(0,0,0,0.8); 
+}
+.divider-inside-top-bottom:after {
+  content: "";
+  position:absolute;
+  z-index: 1;
+  width:96%; 
+  bottom: -10px;
+  height: 5px;
+  left: 2%;
+  border-radius: 100px / 5px;
+  box-shadow:0 0 12px rgba(0,0,0,0.8);
+}
+.divider-inside-top {
+  position:relative;
+  overflow:hidden; 
+  border-top:1px solid #ddd; 
+}
+.divider-inside-top:before {
+  content: ""; 
+  position:absolute; 
+  z-index: 1; 
+  width:96%;  
+  top: -10px; 
+  height: 10px; 
+  left: 2%; 
+  border-radius: 100px / 5px; 
+  box-shadow:0 0 18px rgba(0,0,0,0.6); 
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
